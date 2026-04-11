@@ -115,4 +115,42 @@ src/
 
 ---
 
+## Related open-source repos
+
+This project is one of six interconnected repositories that together
+form a complete quantitative research platform. The alt-data work
+builds on the shared `kuant-core` library and shares its
+reproducibility protocol with `kuant-research`.
+
+| Repo | Role | LOC |
+|---|---|---|
+| **[alt-data-research](https://github.com/zwmjj/alt-data-research)** ⭐ | This project — SEC NLP + 13F flow alpha pipeline, **t-stat 2.11** | ~2.5k |
+| **[kuant-research](https://github.com/zwmjj/kuant-research)** | 14 reproducible empirical studies with committed expected outputs + reproducibility gate | ~3k |
+| **[kuant-core](https://github.com/zwmjj/kuant-core)** | Production quant research library — event-driven backtester, 28+ factor library, walk-forward CV, multi-market data (US CRSP + China A-share), cost model, risk toolkit | ~20k |
+| **[kuant-strategies](https://github.com/zwmjj/kuant-strategies)** | 25+ trading strategies built on `kuant-core`: momentum, mean-reversion, cross-asset, crypto, options, ML, alt-data | ~17k |
+| **[kuant-api](https://github.com/zwmjj/kuant-api)** | FastAPI research backend — 20 routers serving backtests, factor research, Monaco code IDE, WebSocket monitoring, SOP gate-check dashboard | ~5k |
+| **[kuant-web](https://github.com/zwmjj/kuant-web)** | Next.js 16 + Tailwind + Recharts frontend — 20 panels for interactive research, factor analysis, live monitoring, multi-agent control | ~7k |
+
+**Total public code: ~55,000 LOC across 6 MIT-licensed repositories.**
+
+### How a recruiter should read these
+
+- **`alt-data-research`** (this repo) — the *headline project* for
+  the NLP / alt-data story. Statistical rigor, honest negative
+  findings, t-stat 2.11 crossing the 5% threshold.
+- **`kuant-research`** — demonstrates *reproducibility discipline*.
+  Every study ships with `expected_output.json` and a `run.py` that
+  re-runs the analysis end-to-end from a fresh clone.
+- **`kuant-core`** — demonstrates *library engineering*. Clean
+  public API, multi-market data plumbing, 5 cost models, SOP-compliant
+  gate-check system.
+- **`kuant-strategies`** — demonstrates *breadth*. 25 strategies
+  across 7 categories and 4 asset classes, all built on the same
+  underlying engine.
+- **`kuant-api` + `kuant-web`** — demonstrate *full-stack depth*
+  for quant-dev / quant-infra positions. Not strictly necessary for
+  pure research roles.
+
+---
+
 **Repo:** https://github.com/zwmjj/alt-data-research
