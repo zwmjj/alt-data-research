@@ -1,0 +1,37 @@
+# Raw SEC filings — too large to redistribute (~25 GB total)
+data/raw/
+data/raw_8k/
+data/raw_13f/
+data/raw_8k_test/
+data/raw_13f_test/
+
+# Processed caches contain WRDS-derived data (CRSP returns,
+# CUSIP↔permno mapping). WRDS academic license forbids
+# redistribution. Users regenerate from run_task*.py scripts.
+data/processed/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Editor
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+credentials*
+*.key
+*.pem

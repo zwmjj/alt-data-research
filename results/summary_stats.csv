@@ -1,0 +1,2 @@
+study,primary_factor,n_tickers,n_filings,n_months,date_start,date_end,ic_mean,ic_std,icir,t_stat,hit_rate,n_obs,q1_sharpe,q5_sharpe,ls_sharpe,ls_mean_ann,corr_vs_mom12,corr_vs_mom1,corr_vs_lowvol
+task1_sec_nlp_sentiment,sec_sentiment_level,99,687,82,2018-01-31,2025-06-30,-0.0191,0.1734,-0.3821,-0.9988,0.4512,82,0.871,0.7923,-0.4949,-0.0648,-0.045293039378918265,0.012652703118972191,0.21574895474934133

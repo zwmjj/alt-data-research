@@ -1,0 +1,2 @@
+study,primary_signal,primary_horizon,n_filers,n_filings,n_quarters,n_holdings_rows,n_universe_tickers,ic_mean,ic_std,icir,t_stat,hit_rate,n_obs,q1_sharpe,q5_sharpe,ls_sharpe,ls_mean_ann,corr_vs_mom12,corr_vs_mom1,corr_vs_lowvol,corr_vs_sec_sentiment
+task2_13f_institutional_holdings,delta_shares_pct,3m,25,608,28,768733,99,-0.0214,0.1021,-0.7261,-1.8629,0.4304,79,2.0247,1.827,-0.5342,-0.0819,-0.02149201318592393,0.03931858953960626,-0.03290728185455463,-0.029140296979619583

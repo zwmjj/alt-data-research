@@ -1,0 +1,12 @@
+numpy>=1.24
+pandas>=2.0,<2.3
+matplotlib>=3.7
+pyarrow>=14.0
+pysentiment2>=0.1
+sec-edgar-downloader>=5.1
+yfinance>=0.2
+# Optional — only needed if using WRDS CRSP primary path
+wrds>=3.4
+# Optional — only needed for Task 3 FinBERT
+# transformers>=4.40
+# torch>=2.0

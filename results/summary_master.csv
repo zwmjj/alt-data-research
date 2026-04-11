@@ -1,0 +1,2 @@
+task1_10k_sharpe,task2_13f_sharpe,task3_8k_sharpe,combined_equal_sharpe,combined_ic_sharpe,mom12_sharpe,lowvol_sharpe,combined_ic_mean,combined_icir,combined_t_stat,combined_max_dd
+0.5436,0.0703,0.2254,0.7502,0.6441,-0.0005,-0.7146,0.0319,0.8019,2.1091,-0.2806136565652052

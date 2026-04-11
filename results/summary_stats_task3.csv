@@ -1,0 +1,2 @@
+study,primary_signal,primary_horizon,n_tickers,n_filings,ic_mean,ic_std,icir,t_stat,hit_rate,n_obs,q1_sharpe,q5_sharpe,ls_sharpe,ls_mean_ann,corr_vs_mom12,corr_vs_lowvol,corr_vs_task1,corr_vs_task2
+task3_8k_news_sentiment,sentiment_level,1m,95,7254,-0.0177,0.1463,-0.419,-1.102,0.494,83,0.6912,0.6041,-0.2115,-0.028,0.05652100583273356,-0.02913416438254168,0.17830510729734217,-0.011813480177158199
