@@ -782,6 +782,45 @@ group carries more information than the second.
 ### Subsequent runs are offline — all data is cached under `data/raw/` and
 `data/processed/`. Regenerating Task 4's figures from cache takes ~10 seconds.
 
+## Limitations
+
+Three, ordered by how much they would move the conclusion.
+
+**1. All returns are gross of costs.** No transaction cost, turnover or
+slippage is modelled anywhere in this repository — grep for it and nothing
+comes back. The factor rebalances monthly on quintile membership, so turnover
+is not incidental, and it is not measured here either. The +7.7% annualised
+and 0.75 Sharpe are an upper bound on any tradable version, and the size of
+the gap is unknown rather than small.
+
+**2. The component signs were fitted in-sample.** Stated at the top of this
+README and repeated here because it governs every figure below it: all three
+components had negative raw IC, their signs were flipped on full-sample IC,
+and t = 2.11 was then computed on that same sample. It is an in-sample fit
+statistic, not a significance test. A traditional factor put through the
+identical rule (`lowvol`) earns roughly twice the annualised return.
+
+**3. This factor was never traded.** It is a research exercise on public SEC
+filings — no paper account, no live account, no out-of-sample period after
+publication, and no implementation to compare against.
+
+## Disclaimer
+
+Published for professional and educational reference. **Not investment advice,
+not a recommendation, and not an offer or solicitation** to buy or sell any
+instrument or to engage any investment service. No client or external capital
+is managed.
+
+Trading involves substantial risk of loss. **Past performance — whether
+actual, simulated or backtested — does not guarantee future results.**
+Backtested results carry the limitations above and are presented for
+assessment of method, not as a performance claim.
+
+Figures may be revised as errors are found, and corrections are published
+rather than removed. The withdrawal of the significance and outperformance
+claims in Task 4 is an instance: the superseded claims are named, not quietly
+deleted.
+
 ## License & data terms
 
 - Code: MIT
